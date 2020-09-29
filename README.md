@@ -58,16 +58,17 @@ Use GET requests to retrieve resource representation/information.
     <div>
         <AutoComplete
             id="search"
+            placeholder="Eg: Ecosprin 75mg"
             attr="name"
             value="name"
             api="/users?q="
             @tab="$refs.age.focus()"
             @selected="selectUser"
             @newVal="
-            val => {
-                person.name = val;
-            }
-        "
+                val => {
+                    person.name = val;
+                }
+            "
         />
 
         <!--Some other fields -->
