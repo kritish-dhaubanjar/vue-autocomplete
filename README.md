@@ -2,6 +2,8 @@
 
 The `vue-autocomplete` component offers simple and flexible type-ahead functionality. This is useful when searching large sets of data or even dynamically requesting information from an API.
 
+![vue-autocomplete-preview](./preview/vue-autocomplete.gif)
+
 ### Props
 
 | Props         | Description                                                                                  | Type           |
