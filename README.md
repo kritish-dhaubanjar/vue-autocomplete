@@ -54,7 +54,7 @@ Use GET requests to retrieve resource representation/information.
 ```html
 <template>
     <div>
-        <Autocomplete
+        <AutoComplete
             id="search"
             attr="name"
             value="name"
@@ -77,7 +77,7 @@ Use GET requests to retrieve resource representation/information.
 ```
 
 ```javascript
-import Autocomplete from "Autocomplete";
+import AutoComplete from "AutoComplete";
 
 export default {
     data() {
@@ -98,7 +98,7 @@ export default {
     },
 
     components: {
-        Autocomplete,
+        AutoComplete,
     },
 };
 ```
