@@ -58,7 +58,7 @@ Use GET requests to retrieve resource representation/information.
     <div>
         <AutoComplete
             id="search"
-            placeholder="Eg: Ecosprin 75mg"
+            placeholder="Eg: John Doe"
             attr="name"
             value="name"
             api="/users?q="
